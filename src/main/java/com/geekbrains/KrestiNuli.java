@@ -33,6 +33,10 @@ public class KrestiNuli {
                 System.out.println("Победил компьютер");
                 break;
             }
+            if (isMapFull()){
+                System.out.println("Ничья");
+                break;
+            }
         }
         System.out.println("Игра окончена");
 
